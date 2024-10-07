@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option go_package = "./";
+
+message GetOrderStatusRequest {
+  string id = 1;
+}
+
+message GetOrderStatusResponse {
+  enum Status {
+    Done = 0;
+    Pending = 1;
+    Cancelled = 2;
+  }
+  Status status = 1;
+  optional string owner = 2;
+}
+
+service FoodCompanyGateWayService {
+  rpc GetOrderStatus(GetOrderStatusRequest) returns (GetOrderStatusResponse);
+}
