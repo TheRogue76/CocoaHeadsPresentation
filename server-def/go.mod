@@ -1,4 +1,4 @@
-module server
+module github.com/TheRogue76/CocoaHeadsPresentation
 
 go 1.23.1
 

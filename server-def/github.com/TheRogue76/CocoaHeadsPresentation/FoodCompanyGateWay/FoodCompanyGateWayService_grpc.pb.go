@@ -4,7 +4,7 @@
 // - protoc             v5.28.2
 // source: FoodCompanyGateWayService.proto
 
-package __
+package FoodCompanyGateWay
 
 import (
 	context "context"
