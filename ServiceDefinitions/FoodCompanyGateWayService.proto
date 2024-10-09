@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/TheRogue76/CocoaHeadsPresentation/FoodCompanyGateWay";
+option go_package = "GoGrpcGenerated/FoodCompanyGateWay";
 
 message GetOrderStatusRequest {
   string id = 1;
