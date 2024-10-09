@@ -1,4 +1,4 @@
-module github.com/TheRogue76/CocoaHeadsPresentation/GoGrpcGenerated/FoodCompanyGateWay
+module github.com/TheRogue76/CocoaHeadsPresentation/GoGrpcGenerated
 
 go 1.23.1
 
